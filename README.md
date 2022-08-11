@@ -4,4 +4,4 @@ The app utilizes the MERN (MongoDB, Express, React, & Node) to produce a Single 
 
 Check out the video demonstration here: https://youtu.be/K9I4_imEYhM
 
-You can also find the app deployed here: https://allysanfoot.github.io/MERN-App-Demonstration/
+You can also find the front-end of the app deployed here: https://allysanfoot.github.io/MERN-App-Demonstration/
