@@ -1,0 +1,137 @@
+:root {
+/* I call this color scheme, "Peachy"! */
+  --primary: rgb(255, 168, 180);
+  --primary-accent:rgb(255, 221, 227);
+  --secondary: #D1E8C1;
+  --secondary-accent: #889C79;
+  --not-black: rgb(88, 85, 85);
+  --tertiary: #799C94;
+  --tertiary-accent: #C1E8E0;
+}
+
+body {
+  background-color: var(--primary-accent);
+  border: thick solid var(--primary) ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  margin:0 auto;
+  min-width:400px;
+  max-width:70%;
+  padding: 1px;
+  text-align:center;
+}
+
+div {
+  padding: 1em 1em 0 1em;
+}
+
+header {
+  background-color: aliceblue;
+  border: thick solid var(--secondary);
+  color: var(--not-black);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  padding: 1px;
+}
+
+main {
+  background-color: var(--primary-accent);
+  border: 2px dashed aliceblue;
+  color: var(--not-black);
+  padding: 1em;
+}
+
+footer {
+  background-color: aliceblue;
+  border: thick solid var(--secondary);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  color: var(--not-black);
+  margin-top: 10px;
+  padding: 1px;
+}
+
+/* NAVIGATION */
+nav {margin: 1em;}
+nav a {
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  background-color:var(--secondary);
+  color:var(--not-black);
+  font-weight:bold;
+  font-size: larger;
+  margin:4px;
+  padding:4px;
+  text-decoration: underline;
+  text-decoration-color: var(--primary);
+  text-decoration-style: dashed;
+}
+nav a:hover {
+  background-color: whitesmoke;
+  color: var(--secondary-accent);
+}
+
+/* TABLE */
+table {
+  border-collapse: collapse;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+
+caption {
+  color: var(--not-black);
+  padding: 5px;
+}
+
+tr td, td th {
+  border: 2px solid var(--tertiary);
+  padding: 10px;
+}
+tr:nth-child(even){background-color:var(--secondary);}
+th {
+  font-weight:normal;
+  padding: 4px;
+  background-color: var(--tertiary-accent);
+}
+
+
+/* FORM */
+fieldset {
+  border:1px solid gray;
+}
+form {
+  font-size: large;
+  padding: 25px;
+}
+legend {
+  background-color: var(--secondary);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  font-size: larger;
+}
+label {
+  display: block;
+  margin-top:20px;
+  padding: 5px;
+}
+input {
+  font-size: small;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1em 5em 1em 5em;
+  text-align: center;
+}
+button {
+  background-color: var(--secondary);
+  border:1px solid gray;
+  border-radius:3px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  color: var(--not-black);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  padding:5px;
+}
+button:hover {
+  background-color: whitesmoke;
+  color: var(--secondary-accent);
+  cursor: pointer;
+}
+select {
+  color: var(--primary);
+}
+
